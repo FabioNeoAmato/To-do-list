@@ -8,15 +8,24 @@
 body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     min-height: 100vh;
+    font-family: 'Poppins'sans-serif;
 
+
+}
+a{
+    display: flex;
+    justify-content: center;
 
 }
 img{
     width:50px;
     height: 5Opx;
    
+
+   
     
 }
+
 h1{
     font-family: 'Poppins' , sans-serif;
     color: white;
@@ -33,6 +42,7 @@ input , button{
     padding: 0.3rem;
     font-size: 2rem;
     border: none;
+    font-family:'Poppins'sans-serif;
     
     
 }
@@ -46,5 +56,42 @@ button{
 button:hover{
     background: #434343;
     color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.list{
+    list-style-type: none;
+    min-width: 30%;
+    margin: 2px;
+ 
+
+
+    
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+li{
+    font-size: 2rem;
+    font-family: 'Poppins' sans-serif;
+}
+.ajout
+{
+    background-color: white;
+    font-size: 1rem;
+    margin: 1.5rem;
+    
+
+    
 }
 
