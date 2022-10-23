@@ -94,4 +94,11 @@ li{
 
     
 }
+.fa-trash,.fa-check{
+    pointer-events: none;
+
+}
+.complet  {
+    text-decoration: line-through;
+}
 

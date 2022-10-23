@@ -1,6 +1,6 @@
 let inputTexte = document.querySelector(".texte");
 let buttonClickPlus = document.querySelector("button");
-let listAtion = document.querySelector(".list")
+let listAction = document.querySelector(".list")
 
 
 function ajoutAction (event) {
@@ -22,7 +22,7 @@ function ajoutAction (event) {
     buttonT.innerHTML = '<i class="fa-solid fa-trash"></i>';
     buttonT.classList.add("btnT");
     ajoutDiv.appendChild(buttonT);
-    listAtion.appendChild(ajoutDiv);
+    listAction.appendChild(ajoutDiv);
     inputTexte.value = "";
     
 
@@ -32,5 +32,24 @@ function ajoutAction (event) {
 }
 
 buttonClickPlus.addEventListener("click" , ajoutAction);
+listAction.addEventListener("click" , deleteAction);
+
+function deleteAction(event) {
+    let objet = event.target;
+    if (objet.classList[0] === "btnT") {
+        objet.parentElement.remove();
+        
+   }
+
+    if (objet.classList[0] === "btnV") {
+     let objet = objet.parentElement;
+    objet.classList.toggle("complet");
+  }
+
+   
+
+    
+    
+}
 
 
