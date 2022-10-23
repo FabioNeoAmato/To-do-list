@@ -37,13 +37,14 @@ listAction.addEventListener("click" , deleteAction);
 function deleteAction(event) {
     let objet = event.target;
     if (objet.classList[0] === "btnT") {
-        objet.parentElement.remove();
+    let todo = objet.parentElement;
+        todo.remove();
         
    }
 
     if (objet.classList[0] === "btnV") {
-     let objet = objet.parentElement;
-    objet.classList.toggle("complet");
+     let todo = objet.parentElement;
+    todo.classList.toggle("complet");
   }
 
    

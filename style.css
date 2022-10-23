@@ -37,14 +37,19 @@ h1,form{
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    
     }
 input , button{
     padding: 0.3rem;
     font-size: 2rem;
     border: none;
-    font-family:'Poppins'sans-serif;
+   
     
     
+}
+.texte{
+    outline: none;
+    font-family: 'Poppins' sans-serif;
 }
 button{
     cursor: pointer;
@@ -69,33 +74,46 @@ button:hover{
     list-style-type: none;
     min-width: 30%;
     margin: 2px;
+   
+    
  
 
 
     
 }
+.ajoutobjets{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
 div{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+   
+    
 
     
 }
 li{
     font-size: 2rem;
-    font-family: 'Poppins' sans-serif;
+
 }
 .ajout
 {
     background-color: white;
     font-size: 1rem;
     margin: 1.5rem;
+    padding: 3px;
+    font-family: 'Poppins'sans-serif;
     
 
     
 }
 .fa-trash,.fa-check{
     pointer-events: none;
+    font-size: 1.5rem;
 
 }
 .complet  {
