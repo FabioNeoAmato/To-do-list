@@ -25,10 +25,6 @@ function ajoutAction (event) {
     listAction.appendChild(ajoutDiv);
     inputTexte.value = "";
     
-
-
-    
-    
 }
 
 buttonClickPlus.addEventListener("click" , ajoutAction);
