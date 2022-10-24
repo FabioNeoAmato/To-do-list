@@ -8,9 +8,7 @@
 body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     min-height: 100vh;
-    font-family: 'Poppins'sans-serif;
-
-
+    
 }
 a{
     display: flex;
@@ -20,11 +18,11 @@ a{
 img{
     width:50px;
     height: 5Opx;
-   
-
-   
-    
 }
+img:hover{
+    filter: brightness(-39%) saturate(100%)  hue-rotate(52deg);
+}
+
 
 h1{
     font-family: 'Poppins' , sans-serif;
@@ -49,6 +47,7 @@ input , button{
 }
 .texte{
     outline: none;
+    width: 30rem;
     font-family: 'Poppins' sans-serif;
 }
 button{
@@ -85,6 +84,7 @@ button:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2rem;
+    width:28rem;
 }
 
 div{
@@ -97,6 +97,7 @@ div{
     
 }
 li{
+    width: 32rem;
     font-size: 2rem;
 
 }
@@ -106,7 +107,7 @@ li{
     font-size: 1rem;
     margin: 1.5rem;
     padding: 3px;
-    font-family: 'Poppins'sans-serif;
+   
     
 
     

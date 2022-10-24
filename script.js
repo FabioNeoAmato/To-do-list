@@ -1,6 +1,6 @@
 let inputTexte = document.querySelector(".texte");
-let buttonClickPlus = document.querySelector("button");
-let listAction = document.querySelector(".list")
+let buttonClickPlus = document.querySelector("button[type='submit']");
+let listAction = document.querySelector(".list");
 
 
 function ajoutAction (event) {
@@ -38,19 +38,12 @@ function deleteAction(event) {
     let objet = event.target;
     if (objet.classList[0] === "btnT") {
     let todo = objet.parentElement;
-        todo.remove();
-        
-   }
-
-    if (objet.classList[0] === "btnV") {
+    todo.remove();
+   } else if (objet.classList[0] === "btnV") {
      let todo = objet.parentElement;
     todo.classList.toggle("complet");
-  }
-
-   
-
-    
-    
+  } 
 }
+
 
 
