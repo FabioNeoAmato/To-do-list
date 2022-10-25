@@ -8,11 +8,13 @@
 body{
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     min-height: 100vh;
+    text-align: center;
     
 }
 a{
     display: flex;
     justify-content: center;
+   
 
 }
 img{
@@ -85,6 +87,7 @@ button:hover{
     font-weight: 500;
     font-size: 2rem;
     width:28rem;
+    word-wrap: break-word;
 }
 
 div{
