@@ -21,7 +21,7 @@ img{
     
 }
 img:hover{
-    filter: brightness(90%) saturate(10000%)  sepia(9);
+    filter: brightness(100%) sepia(100%) saturate(1000%);
     transition: 1.8s;
     transform: rotate(360deg);
     width: 50px;
@@ -45,6 +45,7 @@ img:hover{
 h1{
     font-family: 'Poppins' , sans-serif;
     color: white;
+    font-size: 4rem;
     
 }
 h1,form{
@@ -52,7 +53,7 @@ h1,form{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    
     
     }
 input , button{
