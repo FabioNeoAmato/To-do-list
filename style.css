@@ -15,6 +15,10 @@ body{
 img{
     width:50px;
     height: 5Opx;
+    transform-origin: 50% 50%;
+   
+
+    
    
 
     
@@ -29,23 +33,14 @@ img:hover{
    
    
 }
-@keyframes tour {
-    0%{
-        transform: scale(1.5);
-        transform: rotate((360deg));
-    }
 
-    100%{
-        transform: scale(1);
-    }
-    
-}
 
 
 h1{
     font-family: 'Poppins' , sans-serif;
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
+    
     
 }
 h1,form{
