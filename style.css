@@ -15,9 +15,30 @@ body{
 img{
     width:50px;
     height: 5Opx;
+   
+
+    
+    
 }
 img:hover{
-    filter: brightness(-39%) saturate(100%)  hue-rotate(52deg);
+    filter: brightness(90%) saturate(10000%)  sepia(9);
+    transition: 1.8s;
+    transform: rotate(360deg);
+    width: 50px;
+    height: 50px;
+   
+   
+}
+@keyframes tour {
+    0%{
+        transform: scale(1.5);
+        transform: rotate((360deg));
+    }
+
+    100%{
+        transform: scale(1);
+    }
+    
 }
 
 
